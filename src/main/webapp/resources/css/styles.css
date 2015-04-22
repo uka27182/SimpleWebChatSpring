@@ -1,0 +1,15 @@
+.scroll {
+    height: 400px;
+    overflow-y: scroll;
+}
+
+div.bg-info{
+    padding: 3px;
+    border-radius: 3px;
+    margin-right: 5px;
+    opacity: 0;
+}
+
+div.well > h3{
+    margin-top: 5px;
+}
