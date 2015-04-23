@@ -31,6 +31,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static ru.chat.utils.ChatItemFactory.getChatItemAsList;
 import static ru.chat.utils.Constants.*;
 
+@Ignore
 @RunWith(MockitoJUnitRunner.class)
 public class ChatControllerTest {
 
