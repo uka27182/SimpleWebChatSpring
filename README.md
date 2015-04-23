@@ -5,6 +5,8 @@
 Java(TM) SE Runtime Environment (build 1.8.0_31-b13) </br>
 apache-tomcat-8.0.21 </br>
 </br>
+url - http://localhost:8080/SimpleWebChatSpring/chat </br>
+</br>
 Контроллер на запрос истории чата возвращает DeferredResult поэтому на tomcat 6 не работает. </br>
 Можно раскомментировать в ChatController секцию: </br>
 //  START variant ReentrantLock </br>
