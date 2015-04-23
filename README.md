@@ -1,5 +1,5 @@
 <html>
-<h1>Простой web chat.</h1>
+<h3>Простой web chat.</h3>
 </br>
 Проверял на:
 Java(TM) SE Runtime Environment (build 1.8.0_31-b13) </br>
