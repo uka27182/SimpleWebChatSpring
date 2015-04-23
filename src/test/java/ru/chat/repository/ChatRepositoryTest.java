@@ -1,6 +1,7 @@
 
 package ru.chat.repository;
 
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
@@ -22,12 +23,12 @@ import java.util.List;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.CoreMatchers.*;
 
+@Ignore
 @ContextConfiguration(locations = {"classpath:spring/root-context.xml"})
 @RunWith(SpringJUnit4ClassRunner.class)
 @ActiveProfiles("production")
 @TransactionConfiguration(defaultRollback = true)
 @Transactional
-
 public class ChatRepositoryTest {
 
     private Logger logger = LoggerFactory.getLogger(ChatRepositoryTest.class);
